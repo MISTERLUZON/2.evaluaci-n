@@ -2,6 +2,8 @@
 //libreria para introducir variables booleanas
 #include <stdbool.h>
 
+//fecha
+
 int main(){
     char salir;
     int mes;
