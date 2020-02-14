@@ -2,7 +2,9 @@
 //libreria para introducir variables booleanas
 #include <stdbool.h>
 
-//Declarar variable booleana: bool ...
+/*Declarar variable booleana: bool ...
+
+semana*/
 
 int main(){
     char salir;
