@@ -26,7 +26,8 @@ int main(){
 
 void pedirDatos(){
 	for(int i=0; i<5; i++){
-		cout<<"Introduzca el nombre numero "<<i+1<<":  "; cin.getline(word[i],30,'\n');
+		cout<<"Introduzca el nombre numero "<<i+1<<":  ";
+		cin.getline(word[i],30,'\n');
 		(punteroPalabra+i)->palabra = new char[strlen(word[i])];
 		(punteroPalabra+i)->palabra = word[i];
 	}
