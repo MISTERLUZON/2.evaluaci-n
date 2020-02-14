@@ -1,5 +1,7 @@
 #include<iostream>
 
+//hola c++
+
 int main(){
     char salir;
     int n1;
