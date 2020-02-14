@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
 
+//operaciones 
+
 using namespace std;
 
 int main(){
