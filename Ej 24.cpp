@@ -2,6 +2,8 @@
 #include <conio.h>
 #include <stdlib.h>
 
+//matriz de 0 y 1
+	
 using namespace std;
 
 void crearMatriz();
