@@ -3,6 +3,8 @@
 #include <string.h>
 #include <stdio.h>
 
+//5 palabras
+
 using namespace std;
 
 struct Palabras{
