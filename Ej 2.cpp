@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
 
+//euros dolares
+
 using namespace std;
 
 int main(){
