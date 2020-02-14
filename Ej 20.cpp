@@ -6,8 +6,11 @@
 using namespace std;
 
 void corrector(){
-	string dni; int result; string letra;
-	cout<<"Introduzca su DNI:   "; cin>>dni; cout<<"\n\n";
+	string dni; int result; 
+	string letra;
+	cout<<"Introduzca su DNI:   "; 
+	cin>>dni; 
+	cout<<"\n\n";
 	char letras[] = {'T','R','W','A','G','M','Y','F','P','D','X','B','N',
 					 'J','Z','S','Q','V','H','L','C','K','E'};
 	if(dni.length()==9){		
@@ -21,7 +24,9 @@ void corrector(){
 
 void letra(){
 	string dni; int result; string letra;
-	cout<<"Introduzca su DNI (sin numero):   "; cin>>dni; cout<<"\n\n";
+	cout<<"Introduzca su DNI (sin numero):   "; 
+	cin>>dni; 
+	cout<<"\n\n";
 	char letras[] = {'T','R','W','A','G','M','Y','F','P','D','X','B','N',
 					 'J','Z','S','Q','V','H','L','C','K','E'};
 	if(dni.length()==8){		
@@ -35,8 +40,11 @@ void letra(){
 
 int main(){
 	int opc;
-	cout<<"Introduzca que desea hacer:\n\n1.Saber si su DNI es correcto.\n2.Saber la letra de su DNI.\n:   "; cin>>opc; cout<<"\n\n";
-	if(opc==1){corrector();} else if(opc==2){letra();}
+	cout<<"Introduzca que desea hacer:\n\n1.Saber si su DNI es correcto.\n2.Saber la letra de su DNI.\n:   ";
+	cin>>opc; 
+	cout<<"\n\n";
+	if(opc==1){corrector();
+		  } else if(opc==2){letra();}
 	cout<<"\n\n\n";
 	system("pause");
 	return 0;
